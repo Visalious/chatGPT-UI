@@ -8,9 +8,9 @@ const menu = (
     <Menu.Item key="0">
       <a href="#1">Settings</a>
     </Menu.Item>
-    <Menu.Item key="1">
+    {/* <Menu.Item key="1">
       <a href="#2">Log out</a>
-    </Menu.Item>
+    </Menu.Item> */}
   </Menu>
 );
 
@@ -115,14 +115,13 @@ const ChatBot = () => {
         <div className="flex items-center justify-between p-4 pt-2">
           <div className="flex items-center space-x-4">
             <Dropdown overlay={menu} trigger={['click']}>
-              <a
-                href="#dropdown"
-                className="ant-dropdown-link text-[#080031] items-center"
+              <div
+                className="ant-dropdown-link text-[#080031] items-center cursor-pointer"
                 onClick={(e) => e.preventDefault()}
               >
                 <span className="font-semibold text-lg"> ChatGPT</span>{' '}
                 <DownOutlined className="w-3 h-3 ml-1" />
-              </a>
+              </div>
             </Dropdown>
           </div>
         </div>
