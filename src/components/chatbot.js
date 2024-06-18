@@ -19,7 +19,6 @@ const menu = (
 const ChatBot = () => {
   return (
     <Row className="bg-[#fff] min-h-screen flex">
-      {/* Header */}
       <Col
         className="bg-[#f9f9f9] relative p-2 flex flex-col"
         xxl={4}
@@ -162,21 +161,21 @@ const ChatBot = () => {
           </div>
           <div className="">
             <div className="columns-2 gap-2 px-5">
-              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 pl-3 pr-9 pb-3  cursor-pointer break-inside-avoid">
+              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 px-3 pb-3  cursor-pointer break-inside-avoid">
                 <h1 className="font-semibold">Create a workout plan</h1>
                 <div className="text-[#b0b2af]">for resistance training</div>
               </div>
-              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 pl-3 pr-9 pb-3  cursor-pointer break-inside-avoid">
+              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 px-3 pb-3  cursor-pointer break-inside-avoid">
                 <h1 className="font-semibold">Explain nostaligia</h1>
                 <div className="text-[#b0b2af]">to a kidergartener</div>
               </div>
-              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 pl-3 pr-9 pb-3  cursor-pointer break-inside-avoid">
+              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 px-3 pb-3  cursor-pointer break-inside-avoid">
                 <h1 className="font-semibold">Suggest fun activties</h1>
                 <div className="text-[#b0b2af]">
                   to help me make friends in new city
                 </div>
               </div>
-              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 pl-3 pr-9 pb-3  cursor-pointer break-inside-avoid">
+              <div className="mb-2 border-[1px] border-[#dfdfdf] rounded-xl flex flex-col  pt-2 px-3 pb-3  cursor-pointer break-inside-avoid">
                 <h1 className="font-semibold">Make me a proposal webpage</h1>
                 <div className="text-[#b0b2af]">
                   after asking me three question
@@ -184,7 +183,7 @@ const ChatBot = () => {
               </div>
             </div>
             <div className="text-center flex items-center justify-center flex-col">
-              <div className="w-[53vw] relative flex">
+              <div className="w-full min-w-[53vw] relative flex">
                 <input
                   className="w-full p-4 rounded-2xl  border-[1px] border-[#dfdfdf] outline-none"
                   placeholder="Message ChatGPT"

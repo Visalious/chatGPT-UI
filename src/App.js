@@ -1,6 +1,7 @@
 import ChatBot from './components/chatbot';
-import logo from './logo.svg';
 // import './App.css';
+// import 'antd/dist/antd.css'; // Import Ant Design styles
+import './index.css'; // Import Tailwind CSS styles
 
 function App() {
   return (
