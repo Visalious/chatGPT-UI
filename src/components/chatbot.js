@@ -119,7 +119,7 @@ const ChatBot = () => {
                 className="ant-dropdown-link text-[#080031] items-center cursor-pointer"
                 onClick={(e) => e.preventDefault()}
               >
-                <span className="font-semibold text-lg"> ChatGPT</span>{' '}
+                <span className="font-semibold text-lg"> Jhason4o</span>{' '}
                 <DownOutlined className="w-3 h-3 ml-1" />
               </div>
             </Dropdown>
@@ -193,7 +193,7 @@ const ChatBot = () => {
               <div className="w-full min-w-[53vw] relative flex">
                 <input
                   className="w-full p-4 rounded-2xl  border-[1px] border-[#dfdfdf] outline-none"
-                  placeholder="Message ChatGPT"
+                  placeholder="Message Jhason4o"
                   type="text"
                   name="text"
                   id=""
@@ -221,7 +221,7 @@ const ChatBot = () => {
                 </button>
               </div>
               <div className="py-2 pr-10 text-[#a8afc3] text-sm">
-                By messaging ChatGPT, you agree to our{' '}
+                By messaging Jhason4o, you agree to our{' '}
                 <a
                   className="underline text-black"
                   href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
