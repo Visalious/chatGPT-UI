@@ -35,8 +35,8 @@ const ChatBot = () => {
       >
         <div className="flex justify-between items-center">
           <div className="flex justify-center items-center w-fit">
-            <div className="rounded-[50%] border-[2px] flex items-center justify-center w-fit bg-white border-[#ecedeb]">
-              <img src='/assets/logo.jpg' alt='img' className='w-[35px] h-[35px] rounded-[50%]'/> 
+            <div className="rounded-[50%] border-[1px] flex items-center justify-center w-fit bg-white border-[#ecedeb]">
+              <img src='/assets/logo.jpg' alt='img' className='w-[40px] h-[40px] rounded-[50%]'/> 
             </div>
             <span className="font-semibold pl-2 text-md">New chat</span>
           </div>
@@ -87,7 +87,7 @@ const ChatBot = () => {
                 className="ant-dropdown-link text-[#080031] items-center cursor-pointer"
                 onClick={(e) => e.preventDefault()}
               >
-                <span className="font-semibold text-lg"> Jhason4o</span>{' '}
+                <span className="font-semibold text-lg"> JHASON4O</span>{' '}
                 <DownOutlined className="w-3 h-3 ml-1" />
               </div>
             </Dropdown>
@@ -95,8 +95,8 @@ const ChatBot = () => {
         </div>
         <div className="h-[90vh] flex flex-col justify- items-center">
           <div className="text-center flex-grow mt-6 flex items-center justify-center   flex-col">
-            <div className="rounded-[50%] border-[2px] w-fit border-[#ecedeb]">
-            <img src='/assets/logo.jpg' alt='img' className='w-[60px] h-[60px] rounded-[50%]'/>
+            <div className="rounded-[50%] border-[2px] w-fit flex items-center justify-center border-[#ecedeb]">
+            <img src='/assets/logo.jpg' alt='img' className='w-[120px] h-[120px] rounded-[50%]'/>
             </div>
             <h1 className="font-semibold text-2xl pt-2">
               How can I help you today?
@@ -129,7 +129,7 @@ const ChatBot = () => {
               <div className="w-full min-w-[53vw] relative flex">
                 <input
                   className="w-full p-4 rounded-2xl  border-[1px] border-[#dfdfdf] outline-none"
-                  placeholder="Message Jhason4o"
+                  placeholder="Message JHASON4O"
                   type="text"
                   name="text"
                   id=""
@@ -157,17 +157,17 @@ const ChatBot = () => {
                 </button>
               </div>
               <div className="py-2 pr-10 text-[#a8afc3] text-sm">
-                By messaging Jhason4o, you agree to our{' '}
+                By messaging JHASON4O, you agree to our{' '}
                 <a
                   className="underline text-black"
-                  href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+                  href="/"
                 >
                   Terms
                 </a>{' '}
                 and have read our{' '}
                 <a
                   className="underline text-black"
-                  href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+                  href="/"
                 >
                   {' '}
                   Privacy Policy
