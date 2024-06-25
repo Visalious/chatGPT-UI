@@ -21,3 +21,6 @@ code {
   margin: 0;
   padding: 0;
 }
+.col2 {
+  transition: 0.3s all ease !important;
+}
